@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-top: 40px;
+}
+
+.centre {
+    padding-left: calc(50% - 585px);
+    padding-right: calc(50% - 585px);
+}
+
+header .right__menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 14px;
+}
+
+header .right__menu .color a {
+    color: #F25822;
+    font-weight: bold;
+}
+
+header .right__menu .menu__links {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.main {
+    margin-top: 84px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    padding-bottom: 100px;
+}
+
+.main div h1 {
+    width: 522px;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.main div p {
+    width: 466px;
+    font-size: 20px;
+    color: #888888;
+    margin-bottom: 32px;
+}
+
+main .butt {
+    display: flex;
+    gap: 48px;
+}
+
+main .butt .orange {
+    background-color: #F25822;
+}
+
+main .butt button {
+    background-color: #ffffff;
+    border: 0;
+}
+
+main .butt .orange {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+main .butt button {
+    color: #AAAAAA;
+    font-size: 15px;
+}
+
+main div button {
+    border-radius: 56px;
+    width: 140px;
+    height: 60px;
+}
+
+.foot div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
